@@ -5,12 +5,12 @@
 }
 :root{
     
---rad: 50px;
+--rad: 12px;
 }
 
 .container{
     display: flex;
- border: 5px solid green;
+border: 2px solid #000000;
  border-radius: var(--rad);
  width: 450px;
  height: 650px;
@@ -54,7 +54,7 @@ overflow: hidden;
 .photo{
     width: inherit;
     height: inherit;
-    border: 10px solid whitesmoke;
+    border: 6px solid whitesmoke;
     border-radius: 50%;
 
 }
@@ -81,6 +81,7 @@ overflow: hidden;
     border: none;
     background: #0b85ff;
     color: white;
+    box-shadow:  0px 3px rgba(0, 0, 0, 0.3);
 }
 
 .stats-container {
@@ -88,22 +89,25 @@ overflow: hidden;
     justify-content: space-between; 
     align-items: center;
     width: 100%;
-    padding: 25px 10px;
+    padding: 25px 20px;
     background-color: #2c3e50;
     margin-top: 0; 
 }
 
 .stats-item {
-    display: flex;
+display: flex;
     flex-direction: row; 
     align-items: center;    
-    gap: 15px;             
+    justify-content: center; 
+    gap: 12px;           
 }
 
 .stats-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 22px; 
+    color: #ff0b0b; 
 }
 
 
